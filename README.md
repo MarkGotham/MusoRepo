@@ -1,4 +1,4 @@
-# 'MusoRepo': a directory of resources for Computational Musicology
+# 'MusoRepo': a Directory of Resources for Computational Musicology
 
 This is a list of links to resources for computational musicology, with a focus on working with symbolic scores.
 
@@ -6,6 +6,7 @@ There are other, excellent lists out there compiled and hosted by institutions l
 * [CCARH's Digital Resources for Musicology](http://wiki.ccarh.org/wiki/Digital_Resources_for_Musicology)
 * [ISMIR's Resources list](http://www.ismir.net/resources.html) – research centers, datasets and more, mostly for audio analysis.
 * [SMT Music Informatics Group](https://sites.google.com/site/smtmig/)
+
 ... and individuals like:
 * [Alexander Lerch](http://www.audiocontentanalysis.org/data-sets/),
 * [ciconia](https://github.com/ciconia/awesome-music),

@@ -23,12 +23,13 @@ Please do reach out if you would like to contribute an item to this list, or if 
 
 * [‘Annotated jazz chord progression corpus’](http://jazzparser.granroth-wilding.co.uk/ParserPaper.html) - Mark Granroth-Wilding and Mark Steedman
 * [Corpus of rock chord progression](http://rockcorpus.midside.com) - deClercq and Temperley 2011
+* [EWLD (Enhanced Wikifonia Leadsheet Dataset)](https://zenodo.org/record/1476555#.XGXW4eJKjMI) - more than 5,000 leadsheets and rich metadata based on the crowd-source 'Wikifonia' corpus (see below).
 * [iRb Jazz Corpus](https://csml.som.ohio-state.edu/home/index.php/iRb_Jazz_Corpus) - OSU
 * [Jazzomat Research Project’s ‘Weimar Jazz Database’](http://jazzomat.hfm-weimar.de/dbformat/dbcontent.html)
-* [MTG/JAAH](https://zenodo.org/record/1290737#.W6vIKxNKixM) - 113 tracks selected from Smithsonian jazz collections
+* [Jazz Audio-Aligned Harmony (JAAH) Dataset](https://zenodo.org/record/1290737#.W6vIKxNKixM) - 113 tracks selected from Smithsonian jazz collections. See also [MTG's Open Source Technologies](https://mtg.github.io/JAAH/)
 * [Lakh MIDI Dataset](http://colinraffel.com/projects/lmd/) - MIDI
 * [MusicNet](http://homes.cs.washington.edu/~thickstn/musicnet.html) - A curated collection of labeled classical music [recordings].
-* ‘Wikifonia’ - corpus of lead sheets (vocal lines and harmonies). NB: no longer hosted online
+* ‘Wikifonia’ - corpus of lead sheets (vocal lines and harmonies). NB: no longer hosted online. (See also 'EWLD' above).
 * [YCAC Dataset](https://ycac.yale.edu/) - .csv datasets of pitch 'slices' from a MIDI corpus.
 
 ### Encoded Musical Scores
@@ -113,6 +114,7 @@ Please do reach out if you would like to contribute an item to this list, or if 
 
 ### Standards
 
+* [IEEE 1599](http://ieee1599.lim.di.unimi.it/) - the multi-layer XML-based format for music
 * [MEI (Music Encoding Initiative)](http://music-encoding.org/) - an open-source effort to define a system for encoding musical documents in a machine-readable structure.
 * [MusicXML](http://www.musicxml.com/) - the standard open format for exchanging digital sheet music.
 * MNX File format (forthcoming) - [draft specifications](https://w3c.github.io/mnx/specification/)

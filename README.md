@@ -57,6 +57,7 @@ Please do reach out if you would like to contribute an item to this list, or if 
 
 ### Analysis / Annotation / Edition / Visualisation
 
+* [Audio Timeliner](http://www.singanewsong.org/audiotimeliner/)
 * [Dezrann](http://www.dezrann.net/)
 * [Digitale Musikedition](www.edirom.de) - based on Frans Wiering’s idea of a “multidimensional model” of a musical edition
 * [“Freischütz Digital”](www.freischuetz-digital.de)
@@ -65,7 +66,10 @@ Please do reach out if you would like to contribute an item to this list, or if 
 * [mdecks](https://mdecks.com/mapharmony.phtml)
 * [OCVE](www.chopinonline.ac.uk/ocve/) - Collection and comparison of primary source Chopin scores
 * [“OPERA”](www.opera.adwmainz.de/informationen.html)
+* [Peachnote](https://www.peachnote.de/)
 * [Tido](https://www.tido-music.com/)
+* [Music Connection Machine](http://www.musicconnectionmachine.org/)
+* [Tuttitempi](https://tuttitempi.com/) - Score-aligned visualisation of the tempi used in multiple recordings from Peachnote.
 * [XronoMorph](https://www.dynamictonality.com/xronomorph.htm) - app for creating rhythmic and melodic loops.
 
 ### Automatic composition (with A.I.)
@@ -139,12 +143,17 @@ Please do reach out if you would like to contribute an item to this list, or if 
 * [Digital Libraries for Musicology (DLfM)](http://www.transforming-musicology.org/dlfm2017/) – an IMSIR satellite event
 * [Empirical Musicology Review (EMR)](http://emusicology.org/)
 * [Frontiers In Digital Humanities](http://journal.frontiersin.org/journal/digital-humanities)
+* [International Computer Music Association](http://www.computermusic.org/)
+* [International Conference on Auditory Displays](https://icad.org/)
+* [International Conference on Live Coding](https://iclc.livecodenetwork.org/)
 * [International Society for Music Information Retrieval (ISMIR)](http://www.ismir.net/)
+* [International Workshop on Musical Metacreation](http://musicalmetacreation.org/)
 * [HathiTrust Research Center 'Uncamp'](https://www.hathitrust.org/htrc_uncamp2018)
 * [Journal of Mathematics and Music (JMAM)](https://www.tandfonline.com/toc/tmam20/current)
 * [Journal of New Music Research](http://www.tandfonline.com/toc/nnmr20/current)
 * [Music & Science Journal](http://journals.sagepub.com/loi/mnsa)
-* [Music Encoding Conference](http://music-encoding.org/conference/) - annual focal point for the Music Encoding Initiative community.
+* [Music Encoding Conference](http://music-encoding.org/conference/) - annual gathering of the Music Encoding Initiative community.
+* [New Interfaces for Musical Expression](http://www.nime.org/)
 * ['TENOR'](http://www.tenor-conference.org/index.html) - International Conference on Technologies for Music Notation and Representation
 * [TISMIR: Transactions of the International Society for Music Information Retrieval](http://tismir.ismir.net)
 
@@ -162,8 +171,12 @@ Please do reach out if you would like to contribute an item to this list, or if 
 * [Digital and Cognitive Musicology Lab (DCML) at EPFL, CH](https://github.com/DCMLab) - Martin Rohrmeier
 * [IRCAM: Iremus](http://www.iremus.cnrs.fr/)
 * [Distributed Digital Music Archives & Libraries Lab, McGill, CA](http://ddmal.music.mcgill.ca/) - Ichiro Fujinaga
-* [Intelligent Music Processing and Machine Learning Group, AT](http://www.ofai.at/music/) - Gerhard Widmer
+* [Institute for Music Informatics and Musicology, University of Music Karlsruhe](http://hfm.eu/imwi/)
+* [Intelligent Music Processing and Machine Learning Group, Linz, AT](http://www.ofai.at/music/) - Gerhard Widmer
+* [Multimedia Computing Group, TU Delft, NL](https://www.tudelft.nl/ewi/over-de-faculteit/afdelingen/intelligent-systems/multimedia-computing/) - including Cynthia Liem and Julián Urbano working on music.
 * [Music and Audio Research Lab (MARL), New York University, US](https://steinhardt.nyu.edu/marl/) - Juan Pablo Bello
 * [Music Informatics Research Group, City University London, UK](http://mirg.city.ac.uk/) - Tillman Weyde
 * [Music Informatics Group, Georgia Tech Center for Music Technology](http://www.musicinformatics.gatech.edu/about/related-classes/) - Alexander Lerch
 * [Music Technology Group, Universitat Pompeu Fabra, Barcelona, ESP](https://www.upf.edu/web/mtg) - Xavier Serra
+* [Universität für Musik und Darstellende Kunst Wien (University of Music and Performing Arts Vienna), AT](https://www.mdw.ac.at/) - Werner Goebl
+* [Volk Group at Utrecht University, Utrecht, NL](https://www.uu.nl/staff/AVolk) - Anja Volk

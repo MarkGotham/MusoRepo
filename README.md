@@ -1,6 +1,7 @@
 # 'MusoRepo': a Directory of Resources for Computational Musicology
 
 This is a list of links to resources for computational musicology, with a focus on working with symbolic scores.
+All of the resources are free and open source/access, except where specified ('[not free]').
 
 There are other, excellent lists out there compiled and hosted by institutions like:
 * [CCARH's Digital Resources for Musicology](http://wiki.ccarh.org/wiki/Digital_Resources_for_Musicology)
@@ -18,6 +19,12 @@ I have / will contribute this content to those lists where appropriate, but I th
 Please do reach out if you would like to contribute an item to this list, or if you have a suggestion for how to organize it better, or perhaps even a grand idea for us list makers should coordinate our efforts.
 
 ## Scores and Datasets
+
+### Analysis datasets (e.g. harmony, form)
+
+* [Annotated Beethoven Corpus](https://github.com/DCMLab/ABC) - Harmonic Analysis of the Beethoven String Quartets
+* [GTTM](http://gttm.jp/gttm/) - Masatoshi Hamanaka's XML markups of musical examples from (and using the tree structure representation of) A Generative Theory of Tonal Music  (Lerdahl and Jackendoff 1983)
+* [Machine-readable Schenkerian analyses](http://www.cs.rhodes.edu/~kirlinp/diss.html)
 
 ### Datasets related to scores (e.g. of chord progressions)
 
@@ -53,24 +60,23 @@ Please do reach out if you would like to contribute an item to this list, or if 
 * [Musicbrainz](http://musicbrainz.org/)
 * [Music Ontology data](http://musicontology.com/)
 
-## Softwares
+## Software and Code Libraries
 
 ### Analysis / Annotation / Edition / Visualisation
 
-* [Audio Timeliner](http://www.singanewsong.org/audiotimeliner/)
+* [Audio Timeliner](http://www.singanewsong.org/audiotimeliner/) [not free]
 * [Dezrann](http://www.dezrann.net/)
 * [Digitale Musikedition](www.edirom.de) - based on Frans Wiering’s idea of a “multidimensional model” of a musical edition
 * [“Freischütz Digital”](www.freischuetz-digital.de)
 * [jfugue](http://www.jfugue.org/) - Music programming for Java and JVM languages
-* [Machine-readable Schenkerian analyses](http://www.cs.rhodes.edu/~kirlinp/diss.html)
-* [mdecks](https://mdecks.com/mapharmony.phtml)
+* [mdecks](https://mdecks.com/mapharmony.phtml) [not free]
 * [OCVE](www.chopinonline.ac.uk/ocve/) - Collection and comparison of primary source Chopin scores
 * [“OPERA”](www.opera.adwmainz.de/informationen.html)
 * [Peachnote](https://www.peachnote.de/)
 * [Tido](https://www.tido-music.com/)
 * [Music Connection Machine](http://www.musicconnectionmachine.org/)
 * [Tuttitempi](https://tuttitempi.com/) - Score-aligned visualisation of the tempi used in multiple recordings from Peachnote.
-* [XronoMorph](https://www.dynamictonality.com/xronomorph.htm) - app for creating rhythmic and melodic loops.
+* [XronoMorph](https://www.dynamictonality.com/xronomorph.htm) - app for creating rhythmic and melodic loops
 
 ### Automatic composition (with A.I.)
 
@@ -83,38 +89,42 @@ Please do reach out if you would like to contribute an item to this list, or if 
 ### Digital music-making
 
 * [OpenMusic](http://repmus.ircam.fr/openmusic/home) - Computer-assisted composition.
-* [Max/MSP](https://cycling74.com/products/max/) – Real-time audio manipulation
+* [Max/MSP](https://cycling74.com/products/max/) – Real-time audio manipulation [not free]
 * [Sonic Pi](http://sonic-pi.net/), [Overtone](http://overtone.github.io/), [SuperCollider](http://supercollider.github.io/) - Live-coding
 
 ### Notation softwares and score rendering
 
-* [MuseScore](https://musescore.org/en/download/musescore.dmg)
-* [Dorico](https://www.steinberg.net/en/products/dorico.html)
-* [Lilypond](http://lilypond.org/)
 * [Abjad](http://abjad.mbrsi.org/#)
-* [Noteflight](https://www.noteflight.com/)
+* [Dorico](https://www.steinberg.net/en/products/dorico.html) [not free]
+* [Finale](https://www.finalemusic.com/) [not free]
+* [Lilypond](http://lilypond.org/)
+* [MuseScore](https://musescore.org/en/download/musescore.dmg)
+* [Sibelius](https://www.avid.com/sibelius) [not free]
 * [VexFlow](http://www.vexflow.com)
 * [Verovio](http://www.verovio.org)
 
 ### Optical Music Recognition (OMR)
 
-* [musitek](http://www.musitek.com/)
-* [sharpeye](http://www.music-scanning.com/sharpeye.html)
+* [musitek](http://www.musitek.com/) [not free]
+* [sharpeye](http://www.musicaleditor.com/scan-music.html) [not free]
+* [SmartScore](https://www.musitek.com/smartscore-pro.html) [not free]
 * [Audiveris](https://github.com/Audiveris/audiveris/wiki)
 
 ### Score Analysis - Open Source Softwares and Code Libraries
 
 * [Humdrum](http://www.humdrum.org/)
-* [music21 (p)](http://web.mit.edu/music21/)
-* [music21 (j)](http://web.mit.edu/music21/music21j/doc/index.html)
+* [music21 (python)](http://web.mit.edu/music21/)
+* [music21 (js)](http://web.mit.edu/music21/music21j/doc/index.html)
 
-### Sheet music / readers (commercial)
+### Online music notation softwares / score editions (all commercial)
 
-* [forScore](https://forscore.co/)
-* [irealpro](https://irealpro.com/)
-* [neoScores](https://www.gogustaf.com/)
-* [Newzik](https://newzik.com/)
-* [Nkoda](https://www.nkoda.com/)
+* [Flat](https://flat.io/) [not free]
+* [forScore](https://forscore.co/) [not free]
+* [irealpro](https://irealpro.com/) - a smartphone application for real time accompaniment also supporting chord charts [not free]
+* [neoScores](https://www.gogustaf.com/) [not free]
+* [Newzik](https://newzik.com/) [not free]
+* [Nkoda](https://www.nkoda.com/) [not free]
+* [Noteflight](https://www.noteflight.com/) [not free]
 
 ### Standards
 

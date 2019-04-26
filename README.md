@@ -1,7 +1,7 @@
 # 'MusoRepo': a Directory of Resources for Computational Musicology
 
 This is a list of links to resources for computational musicology, with a focus on working with symbolic scores.
-All of the resources are free and open source/access, except where specified ('[not free]').
+All of the resources are free and open source/access, except where specified.
 
 There are other, excellent lists out there compiled and hosted by institutions like:
 * [CCARH's Digital Resources for Musicology](http://wiki.ccarh.org/wiki/Digital_Resources_for_Musicology)
@@ -39,7 +39,7 @@ Please do reach out if you would like to contribute an item to this list, or if 
 * ‘Wikifonia’ - corpus of lead sheets (vocal lines and harmonies). NB: no longer hosted online. (See also 'EWLD' above).
 * [YCAC Dataset](https://ycac.yale.edu/) - .csv datasets of pitch 'slices' from a MIDI corpus.
 
-### Encoded Musical Scores
+### Encoded scores
 
 * [ELVIS](https://database.elvisproject.ca/) - metacorpus, various formats.
 * [JRP](http://josquin.stanford.edu/) - krn format. Works by Josquin and contemporaries.
@@ -60,31 +60,41 @@ Please do reach out if you would like to contribute an item to this list, or if 
 * [Musicbrainz](http://musicbrainz.org/)
 * [Music Ontology data](http://musicontology.com/)
 
-## Software and Code Libraries
+### Scores as images (not encoded)
 
-### Analysis / Annotation / Edition / Visualisation
+* [Digital Image Archive of Medieval Music (DIAMM)](http://www.diamm.ac.uk/)
+* [Diva.js](https://ddmal.github.io/diva.js/)
+* [Europeana](https://www.europeana.eu/portal/en) - includes music
+* [Gesualdo Online](https://ricercar.gesualdo-online.cesr.univ-tours.fr/) - MEI sources also available
+* [HathiTrust Research Center](https://www.hathitrust.org/) - includes music
+* [International Music Score Library Project (IMSLP)](http://imslp.org) - some encodings, primarily PDF
+* [Measuring Polyphony](http://measuringpolyphony.org/) - polyphonic, late-medieval music
 
-* [Audio Timeliner](http://www.singanewsong.org/audiotimeliner/) [not free]
-* [Dezrann](http://www.dezrann.net/)
+## Software and Code Libraries for ...
+
+### Analysis / manipulation of scores
+
+* [Humdrum](http://www.humdrum.org/)
+* [jfugue](http://www.jfugue.org/) - writing programs that create music. Java and JVM languages
+* [music21 (p)](http://web.mit.edu/music21/) - python
+* [music21 (j)](http://web.mit.edu/music21/music21j/doc/index.html) - javascript
+
+### Edition
+
 * [Digitale Musikedition](www.edirom.de) - based on Frans Wiering’s idea of a “multidimensional model” of a musical edition
 * [“Freischütz Digital”](www.freischuetz-digital.de)
-* [jfugue](http://www.jfugue.org/) - Music programming for Java and JVM languages
-* [mdecks](https://mdecks.com/mapharmony.phtml) [not free]
 * [OCVE](www.chopinonline.ac.uk/ocve/) - Collection and comparison of primary source Chopin scores
 * [“OPERA”](www.opera.adwmainz.de/informationen.html)
-* [Peachnote](https://www.peachnote.de/)
 * [Tido](https://www.tido-music.com/)
+
+### Visualisation and annotation
+
+* [Audio Timeliner](http://www.singanewsong.org/audiotimeliner/) [not free / open source]
+* [Dezrann](http://www.dezrann.net/)
+* [mdecks](https://mdecks.com/mapharmony.phtml) [not free / open source]
+* [Peachnote](https://www.peachnote.de/) - apps including [Tuttitempi](https://tuttitempi.com/): Score-aligned visualisation of the tempi used in multiple recordings.
 * [Music Connection Machine](http://www.musicconnectionmachine.org/)
-* [Tuttitempi](https://tuttitempi.com/) - Score-aligned visualisation of the tempi used in multiple recordings from Peachnote.
 * [XronoMorph](https://www.dynamictonality.com/xronomorph.htm) - app for creating rhythmic and melodic loops
-
-### Automatic composition (with A.I.)
-
-* [Band-in-a-Box](http://www.bandinabox.com/)
-* [Google Magenta Project](http://magenta.tensorflow.org/)
-* [Jukedeck](https://www.jukedeck.com/)
-* [Sony CSL-Paris: Flow Machine](http://www.flow-machines.com/)
-* [WHIM](http://www.whim-project.eu/)
 
 ### Digital music-making
 
@@ -110,12 +120,6 @@ Please do reach out if you would like to contribute an item to this list, or if 
 * [SmartScore](https://www.musitek.com/smartscore-pro.html) [not free]
 * [Audiveris](https://github.com/Audiveris/audiveris/wiki)
 
-### Score Analysis - Open Source Softwares and Code Libraries
-
-* [Humdrum](http://www.humdrum.org/)
-* [music21 (python)](http://web.mit.edu/music21/)
-* [music21 (js)](http://web.mit.edu/music21/music21j/doc/index.html)
-
 ### Online music notation softwares / score editions (all commercial)
 
 * [Flat](https://flat.io/) [not free]
@@ -128,25 +132,22 @@ Please do reach out if you would like to contribute an item to this list, or if 
 
 ### Standards
 
-* [IEEE 1599](http://ieee1599.lim.di.unimi.it/) - the multi-layer XML-based format for music
+* [IEEE 1599](http://ieee1599.lim.di.unimi.it/) - multi-layer XML-based format for music.
 * [MEI (Music Encoding Initiative)](http://music-encoding.org/) - an open-source effort to define a system for encoding musical documents in a machine-readable structure.
 * [MusicXML](http://www.musicxml.com/) - the standard open format for exchanging digital sheet music.
-* MNX File format (forthcoming) - [draft specifications](https://w3c.github.io/mnx/specification/)
+* MNX File format (forthcoming) - [draft specifications](https://w3c.github.io/mnx/specification/).
 * [SMuFL (Standard Music Font Layout)](http://www.smufl.org/) - a specification for mapping music symbols to Unicode for use in music fonts.
 
 ## Groups and Institutions
 
-* [SMT Music Informatics Group](https://sites.google.com/site/smtmig/)
+### Companies working on automatic composition with A.I.
 
-### Archival / Catalogues
+* [Band-in-a-Box](http://www.bandinabox.com/) [not free / open source]
+* [Google Magenta Project](http://magenta.tensorflow.org/)
+* [Jukedeck](https://www.jukedeck.com/) [not free / open source]
+* [Sony CSL-Paris: Flow Machine](http://www.flow-machines.com/)
 
-* [Digital Image Archive of Medieval Music](http://www.diamm.ac.uk/)
-* [Europeana](https://www.europeana.eu/portal/en)
-* [HathiTrust Research Center](https://www.hathitrust.org/)
-* [International Association of Music Libraries, Archives and Documentation Centres (IAML)](http://www.iaml.info/)
-* [RISM](http://www.rism.info/home/)
-
-### Journals and Conference Proceedings
+### Journals and conference proceedings
 
 * [Computer Music Journal](https://www.mitpressjournals.org/loi/comj)
 * [Conference on Mathematics and Computation in Music (MCM)](http://www.smcm-net.info/) - From the Society for Mathematics and Computation in Music (SMCM)
@@ -165,27 +166,40 @@ Please do reach out if you would like to contribute an item to this list, or if 
 * [Music Encoding Conference](http://music-encoding.org/conference/) - annual gathering of the Music Encoding Initiative community.
 * [New Interfaces for Musical Expression](http://www.nime.org/)
 * ['TENOR'](http://www.tenor-conference.org/index.html) - International Conference on Technologies for Music Notation and Representation
-* [TISMIR: Transactions of the International Society for Music Information Retrieval](http://tismir.ismir.net)
+* [Transactions of the International Society for Music Information Retrieval (TISMIR)](http://tismir.ismir.net)
 
-### Hackathons and Other Events
+### Other gatherings and international organisations
 
-* [Classical Music Hackday](http://www.classicalmusichackday.org/#rec14632470)
-* [MusicMesse, Frankfurt am Main](https://musik.messefrankfurt.com/frankfurt/en.html)
+* [Classical Music Hackdays](http://www.classicalmusichackday.org/#rec14632470)
+* [International Association of Music Libraries, Archives and Documentation Centres (IAML)](http://www.iaml.info/)
+* [MusicMesse, Frankfurt am Main](https://musik.messefrankfurt.com/frankfurt/en.html) - music industry 'trade fair'
+* [SMT Music Informatics Group](https://sites.google.com/site/smtmig/)
+
+### Projects
+
+* [Analysis, creation and teaching of orchestration (ACTOR)](https://www.actorproject.org/)
+* [Duchemin / 'Lost Voices' project](http://duchemin.haverford.edu/)
+* [Neuma](http://www.iremus.cnrs.fr/fr/base-de-donnees/neuma)
+* [SIMSSA](https://simssa.ca) - towards full-music search over a large collection of musical scores
+* [Trompa](https://trompamusic.eu/)
 
 ### Research Groups
 
 * [Algomus](http://www.algomus.fr/) - 'Algorithmic Musicology' group, Lille, FR
+* [Center for Computer Assisted Research in the Humanities, (CCARH) Stanford University](http://www.ccarh.org) - Craig Sapp and Eleanor Selfridge-Field
 * [Centre for Digital Music (‘C4DM’), Queen Mary, University of London, UK](http://c4dm.eecs.qmul.ac.uk/) - Mark Sandler and Simon Dixon
-* [Center for Computer Assisted Research in the Humanities at Stanford University](http://www.ccarh.org) - Craig Sapp and Eleanor Selfridge-Field
-* [Cognitive and Systematic Musicology Laboratory (CSML) at Ohio State University, US](https://www.asc.ohio-state.edu/music/csml/home/index.php/Home) - David Huron
-* [Digital and Cognitive Musicology Lab (DCML) at EPFL, CH](https://github.com/DCMLab) - Martin Rohrmeier
-* [IRCAM: Iremus](http://www.iremus.cnrs.fr/)
-* [Distributed Digital Music Archives & Libraries Lab, McGill, CA](http://ddmal.music.mcgill.ca/) - Ichiro Fujinaga
+* [Centre for Interdisciplinary Research in Music, Media and Technology (CIRMMT), McGill, CA](http://www.cirmmt.org/) - see RA2 (Music Information Research)
+* [Centre d'Études Supérieures de la Renaissance (CESR), FR](https://cesr.cnrs.fr/)
+* [Cognitive and Systematic Musicology Laboratory (CSML), Ohio State University, US](https://www.asc.ohio-state.edu/music/csml/home/index.php/Home) - David Huron
+* [Digital and Cognitive Musicology Lab (DCML), EPFL, CH](https://github.com/DCMLab) - Martin Rohrmeier
+* [IRCAM: IReMus](http://www.iremus.cnrs.fr/)
+* [Distributed Digital Music Archives & Libraries Lab (DDMAL), McGill, CA](http://ddmal.music.mcgill.ca/) - Ichiro Fujinaga
 * [Institute for Music Informatics and Musicology, University of Music Karlsruhe](http://hfm.eu/imwi/)
+* [Instituto Complutense de Ciencias Musicales](https://iccmu.es/)
 * [Intelligent Music Processing and Machine Learning Group, Linz, AT](http://www.ofai.at/music/) - Gerhard Widmer
 * [Multimedia Computing Group, TU Delft, NL](https://www.tudelft.nl/ewi/over-de-faculteit/afdelingen/intelligent-systems/multimedia-computing/) - including Cynthia Liem and Julián Urbano working on music.
 * [Music and Audio Research Lab (MARL), New York University, US](https://steinhardt.nyu.edu/marl/) - Juan Pablo Bello
-* [Music Informatics Research Group, City University London, UK](http://mirg.city.ac.uk/) - Tillman Weyde
+* [Music Informatics Research Group (MIRG), City University London, UK](http://mirg.city.ac.uk/) - Tillman Weyde
 * [Music Informatics Group, Georgia Tech Center for Music Technology](http://www.musicinformatics.gatech.edu/about/related-classes/) - Alexander Lerch
 * [Music Technology Group, Universitat Pompeu Fabra, Barcelona, ESP](https://www.upf.edu/web/mtg) - Xavier Serra
 * [Universität für Musik und Darstellende Kunst Wien (University of Music and Performing Arts Vienna), AT](https://www.mdw.ac.at/) - Werner Goebl

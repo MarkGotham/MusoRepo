@@ -25,26 +25,28 @@ Please do reach out if you would like to contribute an item to this list, or if 
 * [Annotated Beethoven Corpus](https://github.com/DCMLab/ABC) - Harmonic Analysis of the Beethoven String Quartets
 * [GTTM](http://gttm.jp/gttm/) - Masatoshi Hamanaka's XML markups of musical examples from (and using the tree structure representation of) A Generative Theory of Tonal Music  (Lerdahl and Jackendoff 1983)
 * [Machine-readable Schenkerian analyses](http://www.cs.rhodes.edu/~kirlinp/diss.html)
+* [TAVERN](http://u.osu.edu/tavern/) - theme and variation encodings with roman numerals
 
 ### Datasets related to scores (e.g. of chord progressions)
 
 * [‘Annotated jazz chord progression corpus’](http://jazzparser.granroth-wilding.co.uk/ParserPaper.html) - Mark Granroth-Wilding and Mark Steedman
-* [Corpus of rock chord progression](http://rockcorpus.midside.com) - deClercq and Temperley 2011
+* [DDMAL's Billboard Project](http://ddmal.music.mcgill.ca/research/billboard) - chords, structure, instrumentation, and timing annotations of Billboard chart hits.
 * [EWLD (Enhanced Wikifonia Leadsheet Dataset)](https://zenodo.org/record/1476555#.XGXW4eJKjMI) - more than 5,000 leadsheets and rich metadata based on the crowd-source 'Wikifonia' corpus (see below).
 * [iRb Jazz Corpus](https://csml.som.ohio-state.edu/home/index.php/iRb_Jazz_Corpus) - OSU
+* [Isophonics](http://www.isophonics.net/datasets) - data (and software) from the [Centre for Digital Music (‘C4DM’)](http://c4dm.eecs.qmul.ac.uk/) across a range of repertoires and parameters (structure, key, chord, beats).
 * [Jazzomat Research Project’s ‘Weimar Jazz Database’](http://jazzomat.hfm-weimar.de/dbformat/dbcontent.html)
 * [Jazz Audio-Aligned Harmony (JAAH) Dataset](https://zenodo.org/record/1290737#.W6vIKxNKixM) - 113 tracks selected from Smithsonian jazz collections. See also [MTG's Open Source Technologies](https://mtg.github.io/JAAH/)
-* [Lakh MIDI Dataset](http://colinraffel.com/projects/lmd/) - MIDI
-* [MusicNet](http://homes.cs.washington.edu/~thickstn/musicnet.html) - A curated collection of labeled classical music [recordings].
+* [Pop/rock chord progressions](http://rockcorpus.midside.com) - deClercq and Temperley 2011
+* [RWC Music Database](https://staff.aist.go.jp/m.goto/RWC-MDB/) - various repertoires, permission required
+* [Temperley / Kostka-Payne chords](http://davidtemperley.com/kp-stats/) - by Temperley, after the textbook by Kostka and Payne. Direct download [here](http://davidtemperley.com/wp-content/uploads/2016/09/kp-corpus-files.zip)
 * ‘Wikifonia’ - corpus of lead sheets (vocal lines and harmonies). NB: no longer hosted online. (See also 'EWLD' above).
-* [YCAC Dataset](https://ycac.yale.edu/) - .csv datasets of pitch 'slices' from a MIDI corpus.
+* [YCAC Dataset](https://ycac.yale.edu/) - .csv datasets of pitch 'slices' from the [Classical Archives](https://www.classicalarchives.com/) MIDI corpus
 
 ### Encoded scores
 
 * [ELVIS](https://database.elvisproject.ca/) - metacorpus, various formats.
 * [JRP](http://josquin.stanford.edu/) - krn format. Works by Josquin and contemporaries.
 * [Kern Scores](http://kern.ccarh.org/) - krn format.
-* [Kunst der Fuge (MIDI)](http://www.kunstderfuge.com/) - MIDI.
 * [LvH - French](https://github.com/leighvh1/19th-century-art-songs-by-French-composers) - Vocal lines from songs by French composers in krn format.
 * [LvH - German](https://github.com/leighvh1/19th-century-art-songs-by-German-composers) - Vocal lines from songs by German composers in krn format.
 * [MuseData](http://www.musedata.org/) - krn format, mostly Baroque and Classical music.
@@ -58,7 +60,17 @@ Please do reach out if you would like to contribute an item to this list, or if 
 
 * [Discogs](http://www.discogs.com/)
 * [Musicbrainz](http://musicbrainz.org/)
+* [MusicNet](http://homes.cs.washington.edu/~thickstn/musicnet.html) - A curated collection of labeled classical music [recordings].
 * [Music Ontology data](http://musicontology.com/)
+
+### MIDI
+
+* [Band-in-a-Box Jazz standards](http://bhs.minor9.com/)
+* [BitMidi](https://bitmidi.com/)
+* [Classical Archives](https://www.classicalarchives.com/) - crowd-sourced, restrictions on download-at-scale
+* [Kunst der Fuge (MIDI)](http://www.kunstderfuge.com/) - crowd-sourced, restrictions on download-at-scale
+* [Lakh MIDI Dataset](http://colinraffel.com/projects/lmd/)
+* [MAESTRO (MIDI and Audio Edited for Synchronous TRacks and Organization)](https://magenta.tensorflow.org/datasets/maestro) - piano performances with fine alignment between note labels and audio waveforms.
 
 ### Scores as images (not encoded)
 
@@ -102,25 +114,18 @@ Please do reach out if you would like to contribute an item to this list, or if 
 * [Max/MSP](https://cycling74.com/products/max/) – Real-time audio manipulation [not free]
 * [Sonic Pi](http://sonic-pi.net/), [Overtone](http://overtone.github.io/), [SuperCollider](http://supercollider.github.io/) - Live-coding
 
-### Notation softwares and score rendering
+### Notation and score rendering
 
 * [Abjad](http://abjad.mbrsi.org/#)
 * [Dorico](https://www.steinberg.net/en/products/dorico.html) [not free]
 * [Finale](https://www.finalemusic.com/) [not free]
 * [Lilypond](http://lilypond.org/)
-* [MuseScore](https://musescore.org/en/download/musescore.dmg)
+* [MuseScore](https://musescore.org/)
 * [Sibelius](https://www.avid.com/sibelius) [not free]
 * [VexFlow](http://www.vexflow.com)
 * [Verovio](http://www.verovio.org)
 
-### Optical Music Recognition (OMR)
-
-* [musitek](http://www.musitek.com/) [not free]
-* [sharpeye](http://www.musicaleditor.com/scan-music.html) [not free]
-* [SmartScore](https://www.musitek.com/smartscore-pro.html) [not free]
-* [Audiveris](https://github.com/Audiveris/audiveris/wiki)
-
-### Online music notation softwares / score editions (all commercial)
+### Notation / edition online (all commercial)
 
 * [Flat](https://flat.io/) [not free]
 * [forScore](https://forscore.co/) [not free]
@@ -129,6 +134,13 @@ Please do reach out if you would like to contribute an item to this list, or if 
 * [Newzik](https://newzik.com/) [not free]
 * [Nkoda](https://www.nkoda.com/) [not free]
 * [Noteflight](https://www.noteflight.com/) [not free]
+
+### Optical Music Recognition (OMR)
+
+* [musitek](http://www.musitek.com/) [not free]
+* [sharpeye](http://www.musicaleditor.com/scan-music.html) [not free]
+* [SmartScore](https://www.musitek.com/smartscore-pro.html) [not free]
+* [Audiveris](https://github.com/Audiveris/audiveris/wiki)
 
 ### Standards
 
@@ -145,6 +157,7 @@ Please do reach out if you would like to contribute an item to this list, or if 
 * [Band-in-a-Box](http://www.bandinabox.com/) [not free / open source]
 * [Google Magenta Project](http://magenta.tensorflow.org/)
 * [Jukedeck](https://www.jukedeck.com/) [not free / open source]
+* [Open AI](https://openai.com/) - [MuseNet](https://openai.com/blog/musenet/)
 * [Sony CSL-Paris: Flow Machine](http://www.flow-machines.com/)
 
 ### Journals and conference proceedings
@@ -189,6 +202,8 @@ Please do reach out if you would like to contribute an item to this list, or if 
 * [Center for Computer Assisted Research in the Humanities, (CCARH) Stanford University](http://www.ccarh.org) - Craig Sapp and Eleanor Selfridge-Field
 * [Centre for Digital Music (‘C4DM’), Queen Mary, University of London, UK](http://c4dm.eecs.qmul.ac.uk/) - Mark Sandler and Simon Dixon
 * [Centre for Interdisciplinary Research in Music, Media and Technology (CIRMMT), McGill, CA](http://www.cirmmt.org/) - see RA2 (Music Information Research)
+* [Centre for Systematic Musicology, University of Graz, AT](https://systematische-musikwissenschaft.uni-graz.at/) - Richard
+Parncutt
 * [Centre d'Études Supérieures de la Renaissance (CESR), FR](https://cesr.cnrs.fr/)
 * [Cognitive and Systematic Musicology Laboratory (CSML), Ohio State University, US](https://www.asc.ohio-state.edu/music/csml/home/index.php/Home) - David Huron
 * [Digital and Cognitive Musicology Lab (DCML), EPFL, CH](https://github.com/DCMLab) - Martin Rohrmeier

@@ -44,6 +44,7 @@ Please do reach out if you would like to contribute an item to this list, or if 
 
 ### Encoded scores
 
+* [Choral Public Domain Library (CPDL)](http://www.cpdl.org/) - vocal music in a range of formats
 * [ELVIS](https://database.elvisproject.ca/) - metacorpus, various formats.
 * [JRP](http://josquin.stanford.edu/) - krn format. Works by Josquin and contemporaries.
 * [Kern Scores](http://kern.ccarh.org/) - krn format.
@@ -51,6 +52,7 @@ Please do reach out if you would like to contribute an item to this list, or if 
 * [LvH - German](https://github.com/leighvh1/19th-century-art-songs-by-German-composers) - Vocal lines from songs by German composers in krn format.
 * [MuseData](http://www.musedata.org/) - krn format, mostly Baroque and Classical music.
 * [music21 Corpus](http://web.mit.edu/music21/doc/about/referenceCorpus.html) - metacorpus.
+* [Mutopia](https://www.mutopiaproject.org)
 * [Nottingham dataset, cleaned version](https://github.com/jukedeck/nottingham-dataset)
 * [Neuma](http://neuma.huma-num.fr/) - metacorpus, various formats.
 * [OpenScore](https://openscore.cc/) - mscx format.
@@ -68,7 +70,7 @@ Please do reach out if you would like to contribute an item to this list, or if 
 * [Band-in-a-Box Jazz standards](http://bhs.minor9.com/)
 * [BitMidi](https://bitmidi.com/)
 * [Classical Archives](https://www.classicalarchives.com/) - crowd-sourced, restrictions on download-at-scale
-* [Kunst der Fuge (MIDI)](http://www.kunstderfuge.com/) - crowd-sourced, restrictions on download-at-scale
+* [Kunst der Fuge](http://www.kunstderfuge.com/) - crowd-sourced, restrictions on download-at-scale
 * [Lakh MIDI Dataset](http://colinraffel.com/projects/lmd/)
 * [MAESTRO (MIDI and Audio Edited for Synchronous TRacks and Organization)](https://magenta.tensorflow.org/datasets/maestro) - piano performances with fine alignment between note labels and audio waveforms.
 
@@ -82,14 +84,28 @@ Please do reach out if you would like to contribute an item to this list, or if 
 * [International Music Score Library Project (IMSLP)](http://imslp.org) - some encodings, primarily PDF
 * [Measuring Polyphony](http://measuringpolyphony.org/) - polyphonic, late-medieval music
 
-## Software and Code Libraries for ...
+## Apps / Software / Code Libraries for ...
 
-### Analysis / manipulation of scores
+### Analysis / Parsing / Manipulation of Scores
 
 * [Humdrum](http://www.humdrum.org/)
 * [jfugue](http://www.jfugue.org/) - writing programs that create music. Java and JVM languages
+* [Midifile](http://midifile.sapp.org/) - library for parsing Standard MIDI Files from [Craig Sapp](https://ccrma.stanford.edu/~craig/)
 * [music21 (p)](http://web.mit.edu/music21/) - python
 * [music21 (j)](http://web.mit.edu/music21/music21j/doc/index.html) - javascript
+* ['Spectral Orchestrator' (SPORCH)](https://sourceforge.net/projects/sporch/) - harmonies/orchestrations from digitally recorded sound files.
+* [Timidity](http://timidity.sourceforge.net/) - command line synthesizer that plays MIDI files from [Tuukka Toivonen](https://tuukkatoivonen.org).
+
+### Digital music-making
+
+* [OpenMusic](http://repmus.ircam.fr/openmusic/home) - Computer-assisted composition.
+* [Chuck](http://chuck.stanford.edu) - strongly-timed, concurrent, and on-the-fly music programming language.
+* [Common Music / GRACE](https://sourceforge.net/projects/commonmusic/) - Live-coding
+* [Max/MSP](https://cycling74.com/products/max/) – Real-time audio manipulation [not free]
+* [Open Software System for Interactive Applications (OSSIA)](https://ossia.io) - Open-source intermedia sequencer  (previously ‘i-score’)
+* [Overtone](http://overtone.github.io/) - Live-coding. See also the [Leipzig](https://github.com/ctford/leipzig) composition library for Clojure and Clojurescript.
+* [Sonic Pi](http://sonic-pi.net/) - Live-coding
+* [SuperCollider](http://supercollider.github.io/) - Live-coding
 
 ### Edition
 
@@ -97,39 +113,24 @@ Please do reach out if you would like to contribute an item to this list, or if 
 * [“Freischütz Digital”](www.freischuetz-digital.de)
 * [OCVE](www.chopinonline.ac.uk/ocve/) - Collection and comparison of primary source Chopin scores
 * [“OPERA”](www.opera.adwmainz.de/informationen.html)
-* [Tido](https://www.tido-music.com/)
+* [Tido](https://www.tido-music.com/) - [not free]
 
-### Visualisation and annotation
+### Notation / Engraving / Score Rendering
 
-* [Audio Timeliner](http://www.singanewsong.org/audiotimeliner/) [not free / open source]
-* [Dezrann](http://www.dezrann.net/)
-* [mdecks](https://mdecks.com/mapharmony.phtml) [not free / open source]
-* [Peachnote](https://www.peachnote.de/) - apps including [Tuttitempi](https://tuttitempi.com/): Score-aligned visualisation of the tempi used in multiple recordings.
-* [Music Connection Machine](http://www.musicconnectionmachine.org/)
-* [XronoMorph](https://www.dynamictonality.com/xronomorph.htm) - app for creating rhythmic and melodic loops
+See [Wikipedia's 'Comparison of scorewriters'](https://en.wikipedia.org/wiki/Comparison_of_scorewriters) to compare [Dorico](https://www.steinberg.net/en/products/dorico.html), [Finale](https://www.finalemusic.com/), [FORTE](https://www.fortenotation.com/en/products/writing-scores/forte-home/), [Lilypond](http://lilypond.org/) (and editors including [Denemo](http://www.denemo.org/), [Frescobaldi](https://sourceforge.net/projects/frescobaldi.mirror/), and [Hacklily](https://www.hacklily.org)), [MuseScore](https://musescore.org/), [Notion](https://www.presonus.com/products/Notion/), [Sibelius](https://www.avid.com/sibelius), and more.
 
-### Digital music-making
-
-* [OpenMusic](http://repmus.ircam.fr/openmusic/home) - Computer-assisted composition.
-* [Max/MSP](https://cycling74.com/products/max/) – Real-time audio manipulation [not free]
-* [Sonic Pi](http://sonic-pi.net/), [Overtone](http://overtone.github.io/), [SuperCollider](http://supercollider.github.io/) - Live-coding
-
-### Notation and score rendering
-
+In addition to which:
 * [Abjad](http://abjad.mbrsi.org/#)
-* [Dorico](https://www.steinberg.net/en/products/dorico.html) [not free]
-* [Finale](https://www.finalemusic.com/) [not free]
-* [Lilypond](http://lilypond.org/)
-* [MuseScore](https://musescore.org/)
-* [Sibelius](https://www.avid.com/sibelius) [not free]
+* GUIDO [Music Notation Format (GMN)](http://guidolib.sourceforge.net/GUIDO/) and [Engine Library](http://guidolib.sourceforge.net)
+* SCORE: abandonware, but see Craig Sapp’s [Scorelib](http://scorelib.sapp.org/) library for parsing SCORE data files.
 * [VexFlow](http://www.vexflow.com)
 * [Verovio](http://www.verovio.org)
 
-### Notation / edition online (all commercial)
+And further online-only applications (all commercial):
 
 * [Flat](https://flat.io/) [not free]
 * [forScore](https://forscore.co/) [not free]
-* [irealpro](https://irealpro.com/) - a smartphone application for real time accompaniment also supporting chord charts [not free]
+* [irealpro](https://irealpro.com/) - real time accompaniment also supporting chord charts [not free]
 * [neoScores](https://www.gogustaf.com/) [not free]
 * [Newzik](https://newzik.com/) [not free]
 * [Nkoda](https://www.nkoda.com/) [not free]
@@ -142,21 +143,46 @@ Please do reach out if you would like to contribute an item to this list, or if 
 * [SmartScore](https://www.musitek.com/smartscore-pro.html) [not free]
 * [Audiveris](https://github.com/Audiveris/audiveris/wiki)
 
-### Standards
+### Standard Formats
 
 * [IEEE 1599](http://ieee1599.lim.di.unimi.it/) - multi-layer XML-based format for music.
 * [MEI (Music Encoding Initiative)](http://music-encoding.org/) - an open-source effort to define a system for encoding musical documents in a machine-readable structure.
-* [MusicXML](http://www.musicxml.com/) - the standard open format for exchanging digital sheet music.
+* [MIDI](https://www.midi.org)
 * MNX File format (forthcoming) - [draft specifications](https://w3c.github.io/mnx/specification/).
+* [MusicXML](http://www.musicxml.com/) - the standard open format for exchanging digital sheet music.
 * [SMuFL (Standard Music Font Layout)](http://www.smufl.org/) - a specification for mapping music symbols to Unicode for use in music fonts.
+* XXX - Further (not international standard) file formats supported by music21: ABC, Capella, Humdrum, MuseData, Noteworthy, NoteworthyBinary, Scala, TinyNotation (native to music21), Volpiano
+
+
+## Teaching Theory / Fundamentals / Aural Skills
+
+* [Artusi](https://www.artusi.xyz) - interactive music theory exercises currently in beta testing
+* [Auralia](https://www.risingsoftware.com/auralia/) - aural and fundamentals training [not free]
+* [Four Score and More](https://fourscoreandmore.org/) - music theory resources including automatic score exercises generation
+* [Harmonia](https://harmonia.illiacsoftware.com) - [not free]
+* [Hook Theory](https://www.hooktheory.com) - focussed on songwriting / leadsheets [not free]
+* [Indiana MFO](http://www.music.indiana.edu/departments/academic/music-theory/mfonline/about.shtml) - [not free]
+* [musictheory.net](https://www.musictheory.net) - Lessons and exercises
+* [OpenMusicTheory](http://openmusictheory.com/) - a growing, online "textbook" for music theory and aural skills.
+* [nSpireMe](www.nspireme.co.uk) - [not free]
+* [SmartMusic](https://www.smartmusic.com) - [not free]
+
+### Visualisation / Annotation
+
+* [Audio Timeliner](http://www.singanewsong.org/audiotimeliner/) [not free]
+* [Dezrann](http://www.dezrann.net/)
+* [mdecks](https://mdecks.com/mapharmony.phtml) [not free]
+* [Peachnote](https://www.peachnote.de/) - apps including [Tuttitempi](https://tuttitempi.com/): Score-aligned visualisation of the tempi used in multiple recordings.
+* [Music Connection Machine](http://www.musicconnectionmachine.org/)
+* [XronoMorph](https://www.dynamictonality.com/xronomorph.htm) - app for creating rhythmic and melodic loops
 
 ## Groups and Institutions
 
 ### Companies working on automatic composition with A.I.
 
-* [Band-in-a-Box](http://www.bandinabox.com/) [not free / open source]
+* [Band-in-a-Box](http://www.bandinabox.com/) [not free]
 * [Google Magenta Project](http://magenta.tensorflow.org/)
-* [Jukedeck](https://www.jukedeck.com/) [not free / open source]
+* [Jukedeck](https://www.jukedeck.com/) [not free]
 * [Open AI](https://openai.com/) - [MuseNet](https://openai.com/blog/musenet/)
 * [Sony CSL-Paris: Flow Machine](http://www.flow-machines.com/)
 
@@ -195,6 +221,7 @@ Please do reach out if you would like to contribute an item to this list, or if 
 * [Neuma](http://www.iremus.cnrs.fr/fr/base-de-donnees/neuma)
 * [SIMSSA](https://simssa.ca) - towards full-music search over a large collection of musical scores
 * [Trompa](https://trompamusic.eu/)
+* [Tudor Partbooks](http://www.tudorpartbooks.ac.uk)
 
 ### Research Groups
 
@@ -214,8 +241,9 @@ Parncutt
 * [Intelligent Music Processing and Machine Learning Group, Linz, AT](http://www.ofai.at/music/) - Gerhard Widmer
 * [Multimedia Computing Group, TU Delft, NL](https://www.tudelft.nl/ewi/over-de-faculteit/afdelingen/intelligent-systems/multimedia-computing/) - including Cynthia Liem and Julián Urbano working on music.
 * [Music and Audio Research Lab (MARL), New York University, US](https://steinhardt.nyu.edu/marl/) - Juan Pablo Bello
-* [Music Informatics Research Group (MIRG), City University London, UK](http://mirg.city.ac.uk/) - Tillman Weyde
 * [Music Informatics Group, Georgia Tech Center for Music Technology](http://www.musicinformatics.gatech.edu/about/related-classes/) - Alexander Lerch
+* [Music Informatics Laboratory (LIM), Dept. of Computer Science, University of Milano, IT](https://www.lim.di.unimi.it) - Goffredo Haus
+* [Music Informatics Research Group (MIRG), City University London, UK](http://mirg.city.ac.uk/) - Tillman Weyde
 * [Music Technology Group, Universitat Pompeu Fabra, Barcelona, ESP](https://www.upf.edu/web/mtg) - Xavier Serra
 * [Universität für Musik und Darstellende Kunst Wien (University of Music and Performing Arts Vienna), AT](https://www.mdw.ac.at/) - Werner Goebl
 * [Volk Group at Utrecht University, Utrecht, NL](https://www.uu.nl/staff/AVolk) - Anja Volk

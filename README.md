@@ -23,6 +23,7 @@ Please do reach out if you would like to contribute an item to this list, or if 
 ### Analysis datasets (e.g. harmony, form)
 
 * [Annotated Beethoven Corpus](https://github.com/DCMLab/ABC) - Harmonic Analysis of the Beethoven String Quartets
+* [Beethoven Piano Sonata with Functional Harmony dataset (BPS-FH)](https://github.com/Tsung-Ping/functional-harmony) - Harmonic Analysis of the first movements of Beethoven Piano Sonatas
 * [GTTM](http://gttm.jp/gttm/) - Masatoshi Hamanaka's XML markups of musical examples from (and using the tree structure representation of) A Generative Theory of Tonal Music  (Lerdahl and Jackendoff 1983)
 * [Machine-readable Schenkerian analyses](http://www.cs.rhodes.edu/~kirlinp/diss.html)
 * [TAVERN](http://u.osu.edu/tavern/) - theme and variation encodings with roman numerals
@@ -50,7 +51,7 @@ Please do reach out if you would like to contribute an item to this list, or if 
 * [Kern Scores](http://kern.ccarh.org/) - krn format.
 * [LvH - French](https://github.com/leighvh1/19th-century-art-songs-by-French-composers) - Vocal lines from songs by French composers in krn format.
 * [LvH - German](https://github.com/leighvh1/19th-century-art-songs-by-German-composers) - Vocal lines from songs by German composers in krn format.
-* [MuseData](http://www.musedata.org/) - krn format, mostly Baroque and Classical music.
+* [MuseData](http://www.musedata.org/) - MuseData format, mostly Baroque and Classical music.
 * [music21 Corpus](http://web.mit.edu/music21/doc/about/referenceCorpus.html) - metacorpus.
 * [Mutopia](https://www.mutopiaproject.org)
 * [Nottingham dataset, cleaned version](https://github.com/jukedeck/nottingham-dataset)
@@ -64,6 +65,7 @@ Please do reach out if you would like to contribute an item to this list, or if 
 * [Musicbrainz](http://musicbrainz.org/)
 * [MusicNet](http://homes.cs.washington.edu/~thickstn/musicnet.html) - A curated collection of labeled classical music [recordings].
 * [Music Ontology data](http://musicontology.com/)
+* [setlist.fm](https://www.setlist.fm) - crowd-sourced concert setlists
 
 ### MIDI
 
@@ -127,7 +129,6 @@ In addition to which:
 * [Verovio](http://www.verovio.org)
 
 And further online-only applications (all commercial):
-
 * [Flat](https://flat.io/) [not free]
 * [forScore](https://forscore.co/) [not free]
 * [irealpro](https://irealpro.com/) - real time accompaniment also supporting chord charts [not free]
@@ -138,10 +139,9 @@ And further online-only applications (all commercial):
 
 ### Optical Music Recognition (OMR)
 
-* [musitek](http://www.musitek.com/) [not free]
-* [sharpeye](http://www.musicaleditor.com/scan-music.html) [not free]
-* [SmartScore](https://www.musitek.com/smartscore-pro.html) [not free]
-* [Audiveris](https://github.com/Audiveris/audiveris/wiki)
+See [Wikipedia's 'Comparison](https://en.wikipedia.org/wiki/Optical_music_recognition) for commercial software like [musitek](http://www.musitek.com/), [sharpeye](http://www.musicaleditor.com/scan-music.html), and [SmartScore](https://www.musitek.com/smartscore-pro.html), as well as freeware like [Audiveris](https://github.com/Audiveris/audiveris/wiki).
+In addition to which:
+* [PlayScore/ReadScoreLib](http://www.playscore.co/readscorelib/) by [SeeScore](https://www.seescore.co.uk/)
 
 ### Standard Formats
 
@@ -153,14 +153,15 @@ And further online-only applications (all commercial):
 * [SMuFL (Standard Music Font Layout)](http://www.smufl.org/) - a specification for mapping music symbols to Unicode for use in music fonts.
 * XXX - Further (not international standard) file formats supported by music21: ABC, Capella, Humdrum, MuseData, Noteworthy, NoteworthyBinary, Scala, TinyNotation (native to music21), Volpiano
 
-
 ## Teaching Theory / Fundamentals / Aural Skills
 
-* [Artusi](https://www.artusi.xyz) - interactive music theory exercises currently in beta testing
+* [Ars-Nova](https://www.ars-nova.com/home6.html) - including Practica Musica', 'Counterpointer', 'Songworks', 'Musica Touch', 'Rythmist'  [not free]
+* [Artusi](https://www.artusi.xyz) - interactive music theory exercises. Commercial launch 2019 [not free]
 * [Auralia](https://www.risingsoftware.com/auralia/) - aural and fundamentals training [not free]
+* [Chordify](https://chordify.net) - songwriting / leadsheets [fremium]
 * [Four Score and More](https://fourscoreandmore.org/) - music theory resources including automatic score exercises generation
 * [Harmonia](https://harmonia.illiacsoftware.com) - [not free]
-* [Hook Theory](https://www.hooktheory.com) - focussed on songwriting / leadsheets [not free]
+* [Hook Theory](https://www.hooktheory.com) - songwriting / leadsheets [not free]
 * [Indiana MFO](http://www.music.indiana.edu/departments/academic/music-theory/mfonline/about.shtml) - [not free]
 * [musictheory.net](https://www.musictheory.net) - Lessons and exercises
 * [OpenMusicTheory](http://openmusictheory.com/) - a growing, online "textbook" for music theory and aural skills.
@@ -211,6 +212,7 @@ And further online-only applications (all commercial):
 
 * [Classical Music Hackdays](http://www.classicalmusichackday.org/#rec14632470)
 * [International Association of Music Libraries, Archives and Documentation Centres (IAML)](http://www.iaml.info/)
+* [MIREX](https://www.music-ir.org/mirex/wiki/MIREX_HOME)
 * [MusicMesse, Frankfurt am Main](https://musik.messefrankfurt.com/frankfurt/en.html) - music industry 'trade fair'
 * [SMT Music Informatics Group](https://sites.google.com/site/smtmig/)
 
@@ -227,11 +229,13 @@ And further online-only applications (all commercial):
 
 * [Algomus](http://www.algomus.fr/) - 'Algorithmic Musicology' group, Lille, FR
 * [Center for Computer Assisted Research in the Humanities, (CCARH) Stanford University](http://www.ccarh.org) - Craig Sapp and Eleanor Selfridge-Field
+* [Centre for Computer Music Research (ICCMR), University of Plymouth, UK](http://cmr.soc.plymouth.ac.uk/index.html) - Eduardo Miranda and Alexis Kirke
 * [Centre for Digital Music (‘C4DM’), Queen Mary, University of London, UK](http://c4dm.eecs.qmul.ac.uk/) - Mark Sandler and Simon Dixon
 * [Centre for Interdisciplinary Research in Music, Media and Technology (CIRMMT), McGill, CA](http://www.cirmmt.org/) - see RA2 (Music Information Research)
 * [Centre for Systematic Musicology, University of Graz, AT](https://systematische-musikwissenschaft.uni-graz.at/) - Richard
 Parncutt
 * [Centre d'Études Supérieures de la Renaissance (CESR), FR](https://cesr.cnrs.fr/)
+* [Centre for Research in New Music (CeReNeM), University of Huddersfield](https://research.hud.ac.uk/institutes-centres/cerenem/) - Michael Clarke
 * [Cognitive and Systematic Musicology Laboratory (CSML), Ohio State University, US](https://www.asc.ohio-state.edu/music/csml/home/index.php/Home) - David Huron
 * [Digital and Cognitive Musicology Lab (DCML), EPFL, CH](https://github.com/DCMLab) - Martin Rohrmeier
 * [IRCAM: IReMus](http://www.iremus.cnrs.fr/)
@@ -245,5 +249,6 @@ Parncutt
 * [Music Informatics Laboratory (LIM), Dept. of Computer Science, University of Milano, IT](https://www.lim.di.unimi.it) - Goffredo Haus
 * [Music Informatics Research Group (MIRG), City University London, UK](http://mirg.city.ac.uk/) - Tillman Weyde
 * [Music Technology Group, Universitat Pompeu Fabra, Barcelona, ESP](https://www.upf.edu/web/mtg) - Xavier Serra
+* [(Centre for) Practice and Research in Science and Music, (PRiSM)](https://www.rncm.ac.uk/research/research-centres-rncm/prism/) - Emily Howard (RNCM) and Marcus du Sautoy (University of Oxford)
 * [Universität für Musik und Darstellende Kunst Wien (University of Music and Performing Arts Vienna), AT](https://www.mdw.ac.at/) - Werner Goebl
 * [Volk Group at Utrecht University, Utrecht, NL](https://www.uu.nl/staff/AVolk) - Anja Volk
